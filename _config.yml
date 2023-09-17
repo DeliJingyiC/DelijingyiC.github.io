@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jingyi Chen"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Jingyi Chen"
+description              : &description "I am pursuing a Master's degree in Computer Science and Engineering as well as a PhD in Computational Linguistics at The Ohio State University advised by Dr. Micha Elsner and Dr. Andrew Perrault. My research focuses on reinforcement learning, cognitive modeling of language acquisition, computational phonology, and speech synthesis."
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
