@@ -12,9 +12,9 @@ I am pursuing a Master's degree in Computer Science and Engineering as well as a
 
 Updates
 ======
-* 07/23 Our paper received ACL 2023 Area Chair Awards (Linguistic Theories, Cognitive Modeling, and Psycholinguistics).
-* 05/23 Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
-* 03/22 I was awarded the Summer Graduate Research Award from The Center for Cognitive and Brain Sciences at OSU! Super grateful for my Advisor Dr. Micha Elsner! 
+* 07/2023: Our paper received ACL 2023 Area Chair Awards (Linguistic Theories, Cognitive Modeling, and Psycholinguistics).
+* 05/2023: Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
+* 03/2022: I was awarded the Summer Graduate Research Award from The Center for Cognitive and Brain Sciences at OSU! Super grateful for my Advisor Dr. Micha Elsner! 
 
 
 Getting started
