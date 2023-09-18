@@ -12,8 +12,8 @@ I am pursuing a Master's degree in Computer Science and Engineering as well as a
 
 Updates
 ======
-*07/23 Our paper received ACL 2023 Area Chair Awards (Linguistic Theories, Cognitive Modeling, and Psycholinguistics).
-*05/23 Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
+* 07/23 Our paper received ACL 2023 Area Chair Awards (Linguistic Theories, Cognitive Modeling, and Psycholinguistics).
+* 05/23 Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
 
 
 Getting started
