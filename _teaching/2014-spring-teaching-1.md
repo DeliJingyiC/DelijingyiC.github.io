@@ -1,20 +1,15 @@
 ---
-title: "Teaching experience 1"
+title: "LING2000 Introduction to Linguistics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Ohio State University, Linguistics Department"
+date: AU2020 to AU2022
+location: "Columbus, Ohio, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+* Worked as instructor
+* Primary duties: course preparation, classroom instruction, online instruction, grading, consulting with student
+* Teaching content: IPA transcription; Speech Sound Annotation; Phonological Analysis; Morphological Analysis; Syntactic and Semantic Analysis; Pragmatic Analysis
 
-Heading 1
-======
 
-Heading 2
-======
-
-Heading 3
-======
