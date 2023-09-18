@@ -19,9 +19,9 @@ Updates
 
 Presentation
 ======
-Jingyi Chen, Micha Elsner. Explore How Generative Adversarial Networks Learn Phonological Representation. The 27th Annual Mid-Continental Phonetics & Phonology Conference, 2022
-Jingyi Chen. Alignment Contrast in Huiyang Hakka Falling Tones. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
-Jingyi Chen. Tonal Alignment Contrast in Huiyang Hakka Falling Tones. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
+**Jingyi Chen**, Micha Elsner. Explore How Generative Adversarial Networks Learn Phonological Representation. The 27th Annual Mid-Continental Phonetics & Phonology Conference, 2022
+**Jingyi Chen**. Alignment Contrast in Huiyang Hakka Falling Tones. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
+**Jingyi Chen**. Tonal Alignment Contrast in Huiyang Hakka Falling Tones. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
 
 Contact
 ------
