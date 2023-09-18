@@ -19,7 +19,7 @@ Updates
 
 Presentation
 ======
-<u>Jingyi Chen</u>, Micha Elsner. **Explore How Generative Adversarial Networks Learn Phonological Representation**. ACL 2023 main conference，[code](https://github.com/DeliJingyiC/wavegan_phonology.git) [paper](https://aclanthology.org/2023.acl-long.175.pdf)
+<u>Jingyi Chen</u>, Micha Elsner. **Explore How Generative Adversarial Networks Learn Phonological Representation**. ACL 2023 main conference，[Code](https://github.com/DeliJingyiC/wavegan_phonology.git) [Paper](https://aclanthology.org/2023.acl-long.175.pdf)
 
 <u>Jingyi Chen</u>. **Alignment Contrast in Huiyang Hakka Falling Tones**. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
 
