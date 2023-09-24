@@ -19,15 +19,15 @@ Updates
 Research Experiences
 ======
 Optimizing Speech Model Using Advanced RL techniques (2023-present)
-* exploring and designing efficient reinforcement learning techniques for better speech model alignment
+* Exploring and designing efficient reinforcement learning techniques for better speech model alignment
 
 Neural discovery of abstract inflectional structure	(2023-present)
-* train a transformer model to handle feature-guided character-level transduction with Reinforcement Learning
+* Train a transformer model to handle feature-guided character-level transduction with Reinforcement Learning
 * NSF-BCS-2217554; Principal Investigator: Dr. Micha Elsner and Dr. Andrea Sims
 
 Explore How GANs Learn Phonological Representations (2021-2022)
-* train two Convolutional Neural Networks models on English words and French words in an unsupervised manner
-* visualize and interpret the intermediate layers of CNNs to explore what linguistics representations are learned from raw speech data by CNNs and how nasalization acoustic features are encoded in different layers of CNNs
+* Train two Convolutional Neural Networks models on English words and French words in an unsupervised manner
+* Visualize and interpret the intermediate layers of CNNs to explore what linguistics representations are learned from raw speech data by CNNs and how nasalization acoustic features are encoded in different layers of CNNs
 
 Presentation
 ======
