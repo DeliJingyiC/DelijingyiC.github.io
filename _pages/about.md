@@ -21,19 +21,20 @@ Research Experiences
 Optimizing Speech Model Using Advanced RL techniques (2023-present)
 * exploring and designing efficient reinforcement learning techniques for better speech model alignment
 
+Neural discovery of abstract inflectional structure	(2023-present)
+* train a transformer model to handle feature-guided character-level transduction with Reinforcement Learning
+* NSF-BCS-2217554; Principal Investigator: Dr. Micha Elsner and Dr. Andrea Sims
 
+Explore How GANs Learn Phonological Representations (2021-2022)
+* train two Convolutional Neural Networks models on English words and French words in an unsupervised manner
+* visualize and interpret the intermediate layers of CNNs to explore what linguistics representations are learned from raw speech data by CNNs and how nasalization acoustic features are encoded in different layers of CNNs
 
-<u>Jingyi Chen</u>. **Alignment Contrast in Huiyang Hakka Falling Tones**. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
 
 <u>Jingyi Chen</u>. **Tonal Alignment Contrast in Huiyang Hakka Falling Tones**. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
 
 Presentation
 ======
 <u>Jingyi Chen</u>, Micha Elsner. **Explore How Generative Adversarial Networks Learn Phonological Representation**. ACL 2023 main conference[[Code]](https://github.com/DeliJingyiC/wavegan_phonology.git) [[Paper]](https://aclanthology.org/2023.acl-long.175.pdf)
-
-<u>Jingyi Chen</u>. **Alignment Contrast in Huiyang Hakka Falling Tones**. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
-
-<u>Jingyi Chen</u>. **Tonal Alignment Contrast in Huiyang Hakka Falling Tones**. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
 
 Contact
 ------
