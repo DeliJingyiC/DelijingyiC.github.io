@@ -29,9 +29,6 @@ Explore How GANs Learn Phonological Representations (2021-2022)
 * train two Convolutional Neural Networks models on English words and French words in an unsupervised manner
 * visualize and interpret the intermediate layers of CNNs to explore what linguistics representations are learned from raw speech data by CNNs and how nasalization acoustic features are encoded in different layers of CNNs
 
-
-<u>Jingyi Chen</u>. **Tonal Alignment Contrast in Huiyang Hakka Falling Tones**. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
-
 Presentation
 ======
 <u>Jingyi Chen</u>, Micha Elsner. **Explore How Generative Adversarial Networks Learn Phonological Representation**. ACL 2023 main conference[[Code]](https://github.com/DeliJingyiC/wavegan_phonology.git) [[Paper]](https://aclanthology.org/2023.acl-long.175.pdf)
