@@ -16,6 +16,16 @@ Updates
 * 05/2023: Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
 * 03/2022: I was awarded the Summer Graduate Research Award from The Center for Cognitive and Brain Sciences at OSU! Super grateful for my Advisor Dr. Micha Elsner! 
 
+Research Experiences
+======
+Optimizing Speech Model Using Advanced RL techniques (2023-present)
+* exploring and designing efficient reinforcement learning techniques for better speech model alignment
+
+
+
+<u>Jingyi Chen</u>. **Alignment Contrast in Huiyang Hakka Falling Tones**. The 96th Annual Meeting of the Linguistic Society of America, Washington, DC, 2022
+
+<u>Jingyi Chen</u>. **Tonal Alignment Contrast in Huiyang Hakka Falling Tones**. The 25th Annual Mid- Continental Phonetics & Phonology Conference, 2021
 
 Presentation
 ======
