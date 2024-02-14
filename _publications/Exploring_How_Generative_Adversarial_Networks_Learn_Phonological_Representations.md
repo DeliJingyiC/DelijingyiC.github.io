@@ -12,4 +12,4 @@ This paper explores how Generative Adversarial Networks (GANs) learn representat
 
 [Download paper here](https://aclanthology.org/2023.acl-long.175.pdf)
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+
