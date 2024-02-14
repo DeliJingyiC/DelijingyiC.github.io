@@ -12,4 +12,3 @@ The aim of this paper is to examine the role of tonal alignment in the perceptio
 
 [Download paper here](https://www.researchgate.net/publication/371938607_ALIGNMENT_CONTRAST_IN_HUIYANG_HAKKA_FALLING_TONES)
 
-Recommended citation: Chen, Jingyi. (2022). ALIGNMENT CONTRAST IN HUIYANG HAKKA FALLING TONES.
