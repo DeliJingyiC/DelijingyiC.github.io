@@ -8,21 +8,30 @@ redirect_from:
   - /about.html
 ---
 
-I am pursuing a Master's degree in Computer Science and Engineering as well as a PhD in Computational Linguistics at The Ohio State University advised by [Dr. Micha Elsner](https://u.osu.edu/elsner.14/) and [Dr. Andrew Perrault](https://aperrault.github.io). My research focuses on reinforcement learning, cognitive modeling of language acquisition, computational phonology, and speech synthesis.
+I am a PhD student in Computational Linguistics and holds an MS in Computer Science & Engineering from The Ohio State University, advised by [Dr. Micha Elsner](https://u.osu.edu/elsner.14/) and [Dr. Andrew Perrault](https://aperrault.github.io). My research focuses on speech synthesis and reinforcement learning. I have led significant projects, such as developing a controllable text-to-speech (TTS) model enhanced with reinforcement learning to produce natural, high-quality speech with customizable speaker-specific features like pitch and speaking style. My work on applying GANs to phonological representations and analyzing CNNs' intermediate layers was recognized with the ACL Area Chair Award. Additionally, I also work on optimizing diffusion-based TTS models by incorporating advanced reinforcement learning techniques and designing novel loss functions to enhance model performance.
 
 Updates
 ======
+* 05/2024: I work as applied scientist intern at Amazon Prime Video and develop an end-to-end speech-to-speech synthesis model which can generate audios in specific emotion and speaking style with natural speech quality.
 * 07/2023: Our paper received ACL 2023 Area Chair Awards (Linguistic Theories, Cognitive Modeling, and Psycholinguistics).
 * 05/2023: Our paper on exploring how GANs learn phonological representations was accepted to ACL 2023 main conference.
 * 03/2022: I was awarded the Summer Graduate Research Award from The Center for Cognitive and Brain Sciences at OSU! Super grateful for my Advisor Dr. Micha Elsner! 
 
 Research Experiences
 ======
-Optimizing Speech Model Using Advanced RL techniques (2023-present)
-* Exploring and designing efficient reinforcement learning techniques for better speech model alignment
+Controllable Text to Speech Model (2024 - present)
+* Develop a lightweight text to speech model that can generate high-quality, natural sounding speech in the style of a given speaker (gender, pitch, speaking style, etc).
+*Implement LLM as reinforcement learning agent to control text to speech model.
 
-Neural discovery of abstract inflectional structure	(2023-present)
-* Train a transformer model to handle feature-guided character-level transduction with Reinforcement Learning
+EMOCLONE: Speech Emotion Cloning (2024)
+* Developed a variational autoencoder-based end-to-end speech-to-speech model using adversarial learning techniques.
+* Applied reinforcement learning methods to fintune the VAE model for controlling emotion expression, speaker voices,and language settings.[demo page](https://delijingyic.github.io/emoclone_demo)
+ 
+Optimizing Speech Model Using Advanced RL techniques (2023-2024)
+* Investigating and developing advanced reinforcement learning techniques to enhance diffusion speech synthesis models. 
+
+Neural discovery of abstract inflectional structure	(2023-2024)
+* Develop an RL approach to the tradeoff between memory and prediction in morphological production.
 * NSF-BCS-2217554; Principal Investigator: Dr. Micha Elsner and Dr. Andrea Sims
 
 Explore How GANs Learn Phonological Representations (2021-2022)
