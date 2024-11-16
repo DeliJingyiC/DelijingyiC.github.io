@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computational Linguistics and holds an MS in Computer Science & Engineering from The Ohio State University, advised by [Dr. Micha Elsner](https://u.osu.edu/elsner.14/) and [Dr. Andrew Perrault](https://aperrault.github.io). My research focuses on speech synthesis and reinforcement learning. I have led significant projects, such as developing a controllable text-to-speech (TTS) model enhanced with reinforcement learning to produce natural, high-quality speech with customizable speaker-specific features like pitch and speaking style. My work on applying GANs to phonological representations and analyzing CNNs' intermediate layers was recognized with the ACL Area Chair Award. Additionally, I also work on optimizing diffusion-based TTS models by incorporating advanced reinforcement learning techniques and designing novel loss functions to enhance model performance.
+I am a PhD student in Computational Linguistics and holds an MS in Computer Science & Engineering from The Ohio State University, advised by [Dr. Micha Elsner](https://u.osu.edu/elsner.14/) and [Dr. Andrew Perrault](https://aperrault.github.io). My research focuses on speech synthesis and reinforcement learning, and generative AI. I have hands-on experience with stable diffusion models, scalable diffusion models with transformers and GANs. 
 
 Updates
 ======
