@@ -32,5 +32,5 @@ main:
     authors: Micha Elsner, <strong>Jingyi Chen</strong>, Andrea Sims
     conference_short: CL
     conference: Computational Linguistics, 2025.
-    image: ./assets/img/morpho.png
+    image: ./assets/img/morph.png
     notes: Journal Article
