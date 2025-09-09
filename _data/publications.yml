@@ -2,7 +2,7 @@ main:
   - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
     authors: <strong>Jingyi Chen</strong>, Ju-Seung Byun, Micha Elsner, Andrew Perrault
     conference_short: Interspeech
-    conference: Annual Conference of the International Speech Communication Association <strong>(Interspeech)</strong>, 2025.
+    conference: Interspeech, 2025.
     pdf: https://www.isca-archive.org/interspeech_2025/chen25b_interspeech.pdf
     code: https://github.com/DeliJingyiC/DLPO_code
     page: https://delijingyic.github.io/dlpo/
