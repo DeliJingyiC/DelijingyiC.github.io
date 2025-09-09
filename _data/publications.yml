@@ -26,7 +26,7 @@ main:
     conference: TTIC Speech & Audio Foundation Models Workshop, 2025.
     page: https://demopagea.github.io/EmoTransfer-demo/
     image: ./assets/img/emo.png
-    notes: Workshop Paper
+    
 
   - title: "Memory retrieval as pressure towards chunking in morphological inflection"
     authors: Micha Elsner, <strong>Jingyi Chen</strong>, Andrea Sims
