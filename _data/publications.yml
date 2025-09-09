@@ -1,0 +1,36 @@
+main:
+  - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
+    authors: <strong>Jingyi Chen</strong>, Ju-Seung Byun, Micha Elsner, Andrew Perrault
+    conference_short: Interspeech
+    conference: Annual Conference of the International Speech Communication Association <strong>(Interspeech)</strong>, 2025.
+    pdf: https://www.isca-archive.org/interspeech_2025/chen25b_interspeech.pdf
+    code: https://github.com/DeliJingyiC/DLPO_code
+    page: https://delijingyic.github.io/dlpo/
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:9ktGP_uUlDoJ:scholar.google.com/&output=citation&scisdr=CgLFZwJ2ELrotwGt_uc:AAZF9b8AAAAAaMCr5ueZ2hQR8Rb0sjXjjJwnEGo&scisig=AAZF9b8AAAAAaMCr5tf-bOD0actsN70i-RI_hCI&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: ./assets/img/dlpo.png
+    notes: Oral Presentation
+
+  - title: "Exploring How Generative Adversarial Networks Learn Phonological Representations"
+    authors: <strong>Jingyi Chen</strong>, Micha Elsner
+    conference_short: ACL
+    conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2305.12501
+    code: https://github.com/DeliJingyiC/wavegan_phonology
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oKwDpzKTmFwJ:scholar.google.com/&output=citation&scisdr=CgLFZwJ2ELrotwGt58E:AAZF9b8AAAAAaMCr_8Hf6qN--coxmGETUzxcL7g&scisig=AAZF9b8AAAAAaMCr_9NjMykkaGpk3Rk-fgcCtos&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: ./assets/img/wavegan.png
+    notes: Area Chair Awards, Oral Presentation
+
+  - title: "A Curriculum Learning Paradigm for Speech Emotion Transfer"
+    authors: <strong>Jingyi Chen</strong>, Pichao Wang, Andrew Perrault, Micha Elsner
+    conference_short: TTIC Workshop
+    conference: TTIC Speech & Audio Foundation Models Workshop, 2025.
+    page: https://demopagea.github.io/EmoTransfer-demo/
+    image: ./assets/img/emo.png
+    notes: Workshop Paper
+
+  - title: "Memory retrieval as pressure towards chunking in morphological inflection"
+    authors: Micha Elsner, <strong>Jingyi Chen</strong>, Andrea Sims
+    conference_short: CL
+    conference: Computational Linguistics, 2025.
+    image: ./assets/img/morpho.png
+    notes: Journal Article
