@@ -18,7 +18,6 @@ main:
         url={https://arxiv.org/abs/2510.10444}
       }
     image: ./assets/img/listen.png
-    notes: Benchmark for Audio-Language Models
 
   - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
     authors: <strong>Jingyi Chen</strong>, Ju-Seung Byun, Micha Elsner, Andrew Perrault
