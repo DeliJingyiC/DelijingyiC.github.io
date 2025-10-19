@@ -30,8 +30,11 @@
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
+      {% if link.data %} 
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% endif %}
       {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a class="btn btn-sm z-depth-0" role="button" onclick="toggleBibtex('{{ link.title | slugify }}')" style="font-size:12px;cursor:pointer;">BibTeX</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -40,6 +43,11 @@
       {{ link.others }}
       {% endif %}
     </div>
+    {% if link.bibtex %}
+    <div id="bibtex-{{ link.title | slugify }}" style="display:none;margin-top:10px;">
+      <pre style="background-color:#f6f8fa;padding:10px;border-radius:5px;font-size:11px;overflow-x:auto;"><code>{{ link.bibtex }}</code></pre>
+    </div>
+    {% endif %}
   </div>
 </div>
 </li>
