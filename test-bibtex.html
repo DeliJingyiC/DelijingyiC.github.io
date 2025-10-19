@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>BibTeX Test</title>
 </head>
+
 <body>
     <h2>Test BibTeX Toggle</h2>
-    
+
     <div>
-        <a class="btn" onclick="(function(id){var el=document.getElementById(id);if(el){el.style.display=el.style.display==='none'?'block':'none';}})(('bib1'))" style="cursor:pointer;padding:5px;background:#ddd;">BibTeX (Inline)</a>
-        
-        <a class="btn" onclick="toggleBibtex('bib1')" style="cursor:pointer;padding:5px;background:#ddd;">BibTeX (Function)</a>
-        
+        <a class="btn"
+            onclick="(function(id){var el=document.getElementById(id);if(el){el.style.display=el.style.display==='none'?'block':'none';}})(('bib1'))"
+            style="cursor:pointer;padding:5px;background:#ddd;">BibTeX (Inline)</a>
+
+        <a class="btn" onclick="toggleBibtex('bib1')" style="cursor:pointer;padding:5px;background:#ddd;">BibTeX
+            (Function)</a>
+
         <div id="bib1" style="display:none;margin-top:10px;">
             <pre style="background-color:#f6f8fa;padding:10px;border-radius:5px;"><code>@misc{chen2025audiollmsreallylisten,
   title={Do Audio LLMs Really LISTEN, or Just Transcribe?}, 
@@ -22,22 +27,22 @@
     </div>
 
     <script>
-    function toggleBibtex(id) {
-        var element = document.getElementById(id);
-        console.log('Toggling:', id, element);
-        if (element) {
-            if (element.style.display === 'none' || element.style.display === '') {
-                element.style.display = 'block';
-                console.log('Showing');
+        function toggleBibtex(id) {
+            var element = document.getElementById(id);
+            console.log('Toggling:', id, element);
+            if (element) {
+                if (element.style.display === 'none' || element.style.display === '') {
+                    element.style.display = 'block';
+                    console.log('Showing');
+                } else {
+                    element.style.display = 'none';
+                    console.log('Hiding');
+                }
             } else {
-                element.style.display = 'none';
-                console.log('Hiding');
+                console.error('Element not found:', id);
             }
-        } else {
-            console.error('Element not found:', id);
         }
-    }
     </script>
 </body>
-</html>
 
+</html>

@@ -9,14 +9,14 @@ main:
     data: https://huggingface.co/datasets/VibeCheck1/LISTEN_full
     bibtex: |
       @misc{chen2025audiollmsreallylisten,
-        title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance}, 
-        author={Jingyi Chen and Zhimeng Guo and Jiyun Chun and Pichao Wang and Andrew Perrault and Micha Elsner},
-        year={2025},
-        eprint={2510.10444},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL},
-        url={https://arxiv.org/abs/2510.10444}
-      }
+      title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance}, 
+      author={Jingyi Chen and Zhimeng Guo and Jiyun Chun and Pichao Wang and Andrew Perrault and Micha Elsner},
+      year={2025},
+      eprint={2510.10444},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.10444}, 
+}
     image: ./assets/img/listen.png
 
   - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
@@ -27,12 +27,15 @@ main:
     code: https://github.com/DeliJingyiC/DLPO_code
     page: https://delijingyic.github.io/dlpo/
     bibtex: |
-      @inproceedings{chen2025dlpo,
-        title={Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models},
-        author={Chen, Jingyi and Byun, Ju-Seung and Elsner, Micha and Perrault, Andrew},
-        booktitle={Interspeech},
-        year={2025}
-      }
+      @misc{chen2025finetuningtexttospeechdiffusionmodels,
+      title={Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback}, 
+      author={Jingyi Chen and Ju Seung Byun and Micha Elsner and Pichao Wang and Andrew Perrault},
+      year={2025},
+      eprint={2508.03123},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2508.03123}, 
+}
     image: ./assets/img/dlpo.png
     notes: Oral Presentation
 
@@ -40,16 +43,18 @@ main:
     authors: <strong>Jingyi Chen</strong>, Micha Elsner
     conference_short: ACL
     conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2305.12501
+    pdf: https://aclanthology.org/2023.acl-long.175.pdf
     code: https://github.com/DeliJingyiC/wavegan_phonology
     bibtex: |
-      @inproceedings{chen2023exploring,
-        title={Exploring How Generative Adversarial Networks Learn Phonological Representations},
-        author={Chen, Jingyi and Elsner, Micha},
-        booktitle={Annual Meeting of the Association for Computational Linguistics (ACL)},
-        year={2023},
-        url={https://arxiv.org/pdf/2305.12501}
-      }
+      @misc{chen2023exploringgenerativeadversarialnetworks,
+      title={Exploring How Generative Adversarial Networks Learn Phonological Representations}, 
+      author={Jingyi Chen and Micha Elsner},
+      year={2023},
+      eprint={2305.12501},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.12501}, 
+}
     image: ./assets/img/wavegan.png
     notes: Area Chair Awards, Oral Presentation
 
