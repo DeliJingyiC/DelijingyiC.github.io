@@ -36,7 +36,7 @@
       <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
       {% endif %}
       {% if link.bibtex %} 
-      <a class="btn btn-sm z-depth-0" role="button" onclick="toggleBibtex('bib{{ pub_counter }}')" style="font-size:12px;cursor:pointer;">BibTeX</a>
+      <a class="btn btn-sm z-depth-0" role="button" onclick="(function(id){var el=document.getElementById(id);if(el){el.style.display=el.style.display==='none'?'block':'none';}})('bib{{ pub_counter }}')" style="font-size:12px;cursor:pointer;">BibTeX</a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -59,3 +59,16 @@
 
 </ol>
 </div>
+
+<script>
+function toggleBibtex(id) {
+  var element = document.getElementById(id);
+  if (element) {
+    if (element.style.display === 'none' || element.style.display === '') {
+      element.style.display = 'block';
+    } else {
+      element.style.display = 'none';
+    }
+  }
+}
+</script>
