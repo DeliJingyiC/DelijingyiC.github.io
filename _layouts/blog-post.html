@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Jingyi Chen</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+</head>
+<body>
+
+  <nav class="blog-nav">
+    <a href="/" class="nav-logo">Jingyi Chen</a>
+    <div class="nav-links">
+      <a href="/blog/">Blog</a>
+      <a href="/">Home</a>
+    </div>
+  </nav>
+
+  <div class="post-wrap">
+    <header class="post-header">
+      <div class="post-header-meta">
+        {% if page.category %}<span class="tag">{{ page.category }}</span>{% endif %}
+        {% if page.date %}<span class="post-date">{{ page.date | date: "%b %Y" }}</span>{% endif %}
+        {% if page.read_time %}<span class="meta-dot">·</span><span class="post-read-time">{{ page.read_time }}</span>{% endif %}
+      </div>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+
+    <footer class="post-footer">
+      <a href="/blog/">← All posts</a>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Jingyi Chen</title>
+  <meta name="description" content="Technical notes on speech, language, and machine learning.">
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+</head>
+<body>
+
+  <nav class="blog-nav">
+    <a href="/" class="nav-logo">Jingyi Chen</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+    </div>
+  </nav>
+
+  <div class="blog-index">
+    <header class="index-hero">
+      <h1>Blog</h1>
+      <p>Technical notes on speech, language, and machine learning.</p>
+    </header>
+    {{ content }}
+  </div>
+
+</body>
+</html>

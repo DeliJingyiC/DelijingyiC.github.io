@@ -1,14 +1,14 @@
 ---
-layout: homepage
+layout: blog-index
 ---
 
-<p>← <a href="/">Home</a></p>
+<p class="section-label">Autoregressive Models for Speech</p>
 
-## Blog — Knowledge Notes
-
-A living collection of technical notes on speech, language, and machine learning.
-
-### Autoregressive Models for Speech
-
-- [**Codec-based TTS Pipeline: RVQ, Semantic Tokens, and Acoustic Tokens**](/blog/autoregressive-tts)  
-  RVQ mechanics, codebook delay pattern for AR generation, semantic vs. acoustic token comparison, codebook collapse fixes, exposure bias, streaming code, and EnCodec vs. DAC vs. Mimi.
+<a href="/blog/autoregressive-tts" class="post-card">
+  <div class="card-meta">
+    <span class="tag">Speech Synthesis</span>
+    <span class="card-date">Jun 2026</span>
+  </div>
+  <h2>Codec-based TTS Pipeline: RVQ, Semantic Tokens, and Acoustic Tokens</h2>
+  <p>RVQ mechanics, codebook delay pattern, semantic vs. acoustic token comparison, codebook collapse, exposure bias, streaming implementation, and EnCodec vs. DAC vs. Mimi.</p>
+</a>
