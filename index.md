@@ -28,3 +28,5 @@ Previously, I completed my M.S. in Computer Science & Engineering at OSU. I have
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/blog.md %}
