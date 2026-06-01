@@ -6,7 +6,7 @@ layout: homepage
 
 I am a Ph.D. Candidate in Computational Linguistics at The Ohio State University, specializing in speech synthesis, multimodal large language models, and reinforcement learning for audio. I work under the supervision of Dr. Micha Elsner and Dr. Andrew Perrault, with committee members Dr. Eric Fosler-Lussier and Dr. Cynthia Clopper. My research focuses on advancing speech synthesis through reinforcement learning and diffusion models, developing speech emotion conversion systems, and creating benchmarks for evaluating multimodal LLMs on emotional speech understanding.
 
-Previously, I completed my M.S. in Computer Science & Engineering at OSU and earned my B.A. in Linguistics from Sichuan International Studies University in China. I have industry experience as an Applied Scientist Intern at Amazon, including at Amazon DEX AI (Summer 2025), where I built LLM-based ranking systems for product recommendations, and at Amazon Prime Video (Summer 2024), where I developed production-ready speech emotion transfer systems.
+Previously, I completed my M.S. in Computer Science & Engineering at OSU. I have industry experience as an Applied Scientist Intern at Amazon, including at Amazon DEX AI (Summer 2025), where I built LLM-based ranking systems for product recommendations, and at Amazon Prime Video (Summer 2024), where I developed production-ready speech emotion transfer systems.
 
 ## Research Interests
 
