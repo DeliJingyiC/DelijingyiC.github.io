@@ -9,11 +9,11 @@ main:
     data: https://huggingface.co/datasets/VibeCheck1/LISTEN_full
     bibtex: |
       @inproceedings{chen2026listen,
-      title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance},
-      author={Jingyi Chen and Zhimeng Guo and Jiyun Chun and Pichao Wang and Andrew Perrault and Micha Elsner},
-      booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
-      year={2026},
-}
+        title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance},
+        author={Jingyi Chen and Zhimeng Guo and Jiyun Chun and Pichao Wang and Andrew Perrault and Micha Elsner},
+        booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+        year={2026},
+      }
     image: ./assets/img/listen.png
 
   - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
@@ -25,14 +25,14 @@ main:
     page: https://delijingyic.github.io/dlpo/
     bibtex: |
       @misc{chen2025finetuningtexttospeechdiffusionmodels,
-      title={Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback}, 
-      author={Jingyi Chen and Ju Seung Byun and Micha Elsner and Pichao Wang and Andrew Perrault},
-      year={2025},
-      eprint={2508.03123},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2508.03123}, 
-}
+        title={Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback},
+        author={Jingyi Chen and Ju-Seung Byun and Micha Elsner and Pichao Wang and Andrew Perrault},
+        year={2025},
+        eprint={2508.03123},
+        archivePrefix={arXiv},
+        primaryClass={cs.SD},
+        url={https://arxiv.org/abs/2508.03123},
+      }
     image: ./assets/img/dlpo.png
     notes: Oral Presentation
 
@@ -44,14 +44,14 @@ main:
     code: https://github.com/DeliJingyiC/wavegan_phonology
     bibtex: |
       @misc{chen2023exploringgenerativeadversarialnetworks,
-      title={Exploring How Generative Adversarial Networks Learn Phonological Representations}, 
-      author={Jingyi Chen and Micha Elsner},
-      year={2023},
-      eprint={2305.12501},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2305.12501}, 
-}
+        title={Exploring How Generative Adversarial Networks Learn Phonological Representations},
+        author={Jingyi Chen and Micha Elsner},
+        year={2023},
+        eprint={2305.12501},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2305.12501},
+      }
     image: ./assets/img/wavegan.png
     notes: Area Chair Awards, Oral Presentation
 
@@ -68,7 +68,6 @@ main:
         year={2025}
       }
     image: ./assets/img/emo.png
-    
 
   - title: "Memory retrieval as pressure towards chunking in morphological inflection"
     authors: Micha Elsner, <strong>Jingyi Chen</strong>, Andrea Sims
