@@ -1,26 +1,23 @@
 main:
   - title: "Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance"
     authors: <strong>Jingyi Chen</strong>, Zhimeng Guo, Jiyun Chun, Pichao Wang, Andrew Perrault, Micha Elsner
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
+    conference_short: EACL
+    conference: European Chapter of the Association for Computational Linguistics <strong>(EACL)</strong>, 2026.
     pdf: https://arxiv.org/abs/2510.10444
     code: https://github.com/DeliJingyiC/LISTEN
     page: https://delijingyic.github.io/LISTEN-website/
     data: https://huggingface.co/datasets/VibeCheck1/LISTEN_full
     bibtex: |
-      @misc{chen2025audiollmsreallylisten,
-      title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance}, 
+      @inproceedings{chen2026listen,
+      title={Do Audio LLMs Really LISTEN, or Just Transcribe? Measuring Lexical vs. Acoustic Emotion Cues Reliance},
       author={Jingyi Chen and Zhimeng Guo and Jiyun Chun and Pichao Wang and Andrew Perrault and Micha Elsner},
-      year={2025},
-      eprint={2510.10444},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.10444}, 
+      booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+      year={2026},
 }
     image: ./assets/img/listen.png
 
   - title: "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models"
-    authors: <strong>Jingyi Chen</strong>, Ju-Seung Byun, Micha Elsner, Andrew Perrault
+    authors: <strong>Jingyi Chen</strong>, Ju-Seung Byun, Micha Elsner, Pichao Wang, Andrew Perrault
     conference_short: Interspeech
     conference: Interspeech, 2025.
     pdf: https://www.isca-archive.org/interspeech_2025/chen25b_interspeech.pdf
