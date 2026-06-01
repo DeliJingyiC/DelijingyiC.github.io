@@ -7,24 +7,40 @@ description: "A detailed walkthrough of modern neural codec-based TTS — from R
 read_time: "15 min read"
 ---
 
-## 1. Global Pipeline: Waveform → Tokens → Waveform
+## 1. Global Pipeline: Text → Tokens → Waveform
 
 A neural codec-based TTS system works in three stages:
 
-1. **Encode** — A neural audio codec (EnCodec, DAC, Mimi) compresses the raw waveform into discrete tokens via RVQ.
-2. **Generate** — An autoregressive (AR) language model produces a token sequence conditioned on text or phonemes.
-3. **Decode** — The codec decoder reconstructs audio from the generated tokens.
+1. **Text Encoding** — A text encoder (BERT, T5, or a learned embedding) converts input text into semantic vectors.
+2. **AR Generation** — An autoregressive model predicts codec tokens conditioned on the text embeddings (and optionally a speaker embedding from a reference audio).
+3. **Codec Decoding** — The codec decoder reconstructs the waveform directly from the predicted tokens. The codec encoder is only used *offline* during training to pre-compute token targets — it is not part of inference.
 
 ```
 Text / Phonemes
       │
       ▼
-┌──────────────┐       ┌──────────────────────────────────┐       ┌──────────┐
-│   AR Model   │──────▶│  Codec Encoder → RVQ → [tokens]  │──────▶│ Decoder  │──▶ Waveform
-└──────────────┘ tokens└──────────────────────────────────┘ tokens└──────────┘
+┌─────────────────┐
+│  Text Encoder   │  ← encodes text into semantic vectors
+│  (BERT / T5等)  │
+└────────┬────────┘
+         │ text embeddings
+         ▼
+┌─────────────────┐     reference audio (optional)
+│   AR Model      │◀───────────────────────────────
+│  (predicts      │     speaker embedding
+│   codec tokens) │
+└────────┬────────┘
+         │ predicted codec tokens
+         ▼
+┌─────────────────┐
+│  Codec Decoder  │  ← decoder only; no encoder at inference
+└────────┬────────┘
+         │
+         ▼
+      Waveform
 ```
 
-The key insight: by mapping audio to discrete tokens with a finite vocabulary, speech synthesis becomes a language modeling problem — the same next-token prediction machinery behind GPT can now generate speech.
+The key insight: by mapping audio to discrete tokens with a finite vocabulary, speech synthesis becomes a language modeling problem — the same next-token prediction machinery behind GPT can now generate speech. Importantly, the codec encoder is only needed at training time to tokenize ground-truth audio; at inference, the AR model generates tokens from scratch and only the decoder is used.
 
 ---
 
