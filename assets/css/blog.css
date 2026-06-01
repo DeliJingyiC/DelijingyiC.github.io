@@ -1,20 +1,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #08080f;
-  --surface:     #0f0f1a;
-  --surface-2:   #161624;
-  --border:      #1c1c2e;
-  --border-2:    #2a2a40;
-  --text:        #e8e8f4;
-  --text-2:      #8888aa;
-  --text-3:      #44445a;
-  --accent:      #9d7dfc;
-  --accent-dim:  rgba(157, 125, 252, 0.12);
-  --accent-ring: rgba(157, 125, 252, 0.25);
-  --teal:        #38c7b0;
-  --teal-dim:    rgba(56, 199, 176, 0.12);
-  --code-bg:     #0b0b14;
+  --bg:          #0a0a0a;
+  --surface:     #141414;
+  --surface-2:   #1c1c1c;
+  --border:      #252525;
+  --border-2:    #303030;
+  --text:        #fafafa;
+  --text-2:      #a1a1aa;
+  --text-3:      #52525b;
+  --accent:      #f97316;
+  --accent-dim:  rgba(249, 115, 22, 0.1);
+  --accent-ring: rgba(249, 115, 22, 0.2);
+  --teal:        #e4e4e7;
+  --teal-dim:    rgba(228, 228, 231, 0.08);
+  --code-bg:     #0d0d0d;
   --nav-h:       56px;
   --r:           10px;
   --font:        -apple-system, "Inter", "Segoe UI", system-ui, sans-serif;
@@ -89,7 +89,7 @@ body {
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1.1;
-  background: linear-gradient(135deg, var(--text) 30%, var(--text-2) 100%);
+  background: linear-gradient(135deg, var(--text) 50%, var(--text-2) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -294,7 +294,7 @@ body {
   font-family: var(--mono);
   font-size: 0.83em;
   background: var(--surface-2);
-  color: var(--teal);
+  color: #e4e4e7;
   padding: 2px 7px;
   border-radius: 5px;
   border: 1px solid var(--border);
